@@ -40,8 +40,8 @@ function checkObj(checkProp) {
 checkObj("gift");
 ```
 
-### Answers
-
+### Answers 1
+//Answers 1 won,t complete the task
 ```javascript
 // Setup
 var myObj = {
@@ -60,6 +60,20 @@ function checkObj(checkProp) {
 // Test your code by modifying these values
 checkObj("gift");
 ```
+
+### answer 2
+ //Answers 2 will
+
+function checkObj(obj, checkProp) {
+  // Only change code below this line
+  var answer = "Not Found";
+  if (obj.hasOwnProperty(checkProp)) {
+    answer=obj[checkProp];
+  }
+  return answer;
+  // Only change code above this line
+}
+console.log(checkObj({gift: "pony", pet: "kitten", bed: "sleigh"}, "gift"))
 
 ### Thinking
 
